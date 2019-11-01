@@ -413,6 +413,27 @@ box-shadow: 0px 0px 2px 2px #000066;
     
 }
 
+.GitImage{
+    position: relative;
+    float: left;
+    width:100%;
+    height:100px;
+
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.GitImage img{
+    height:100%;
+    width:100px;
+    display: block;
+
+    margin-left: auto ;
+    margin-right: auto ;
+    position: relative;
+
+}
+
 .Contact{
     max-height: 100vh;
 

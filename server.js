@@ -246,6 +246,7 @@ var App = function (_Component) {
                         null,
                         'Marko Maricic'
                     ),
+                    _react2.default.createElement('link', { rel: '/images/logoTab.png', href: 'http://localhost:3000/images/logoTab.png', type: 'image/x-icon' }),
                     _react2.default.createElement('meta', { name: 'Marko Maricic',
                         content: 'Innovative and creative with great analytical skills. Highly motivated, self tought\r with great desire for learning and improving programming skills.' }),
                     _react2.default.createElement('link', { rel: 'canonical', href: 'http://markomaricic.com' })
@@ -587,32 +588,63 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Projects() {
-    function handleClick() {
+    function handleClick(link) {
 
-        window.open("https://rolten.info/", "_blank");
+        window.open(link, "_blank");
     }
     return _react2.default.createElement(
-        "div",
-        { id: "Projects", className: "Projects" },
+        'div',
+        { id: 'Projects', className: 'Projects' },
         _react2.default.createElement(
-            "p",
+            'p',
             null,
-            "Projects"
+            'Projects'
         ),
         _react2.default.createElement(
-            "div",
-            { className: "Projects-imgContainer" },
+            'div',
+            { className: 'GitImage' },
             _react2.default.createElement(
-                "a",
-                { onClick: handleClick },
-                _react2.default.createElement("img", { src: "/images/Rolten-info.jpg" }),
+                'a',
+                { href: 'https://github.com/maricic92marko' },
+                _react2.default.createElement('img', { src: '/images/git_logo.png', href: 'https://github.com/maricic92marko' })
+            )
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'Projects-imgContainer' },
+            _react2.default.createElement(
+                'a',
+                { onClick: function onClick() {
+                        return handleClick("https://rolten.info/");
+                    } },
+                _react2.default.createElement('img', { src: '/images/Rolten-info.jpg' }),
                 _react2.default.createElement(
-                    "div",
-                    { className: "overlay" },
+                    'div',
+                    { className: 'overlay' },
                     _react2.default.createElement(
-                        "div",
-                        { className: "text" },
-                        "RoloSistem"
+                        'div',
+                        { className: 'text' },
+                        'RoloSistem'
+                    )
+                )
+            )
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'Projects-imgContainer' },
+            _react2.default.createElement(
+                'a',
+                { onClick: function onClick() {
+                        return handleClick("https://github.com/maricic92marko/cv-sajt");
+                    } },
+                _react2.default.createElement('img', { src: '/images/cv-sajt.jpg' }),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'overlay' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'text' },
+                        'cv-sajt'
                     )
                 )
             )

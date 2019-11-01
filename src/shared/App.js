@@ -28,6 +28,8 @@ class App extends Component {
                     <meta charSet="utf-8" />
                     <link rel="stylesheet" href="/main.css"/>
                     <title>Marko Maricic</title>
+                    <link rel="/images/logoTab.png" href="http://localhost:3000/images/logoTab.png" type="image/x-icon" />
+
                     <meta name="Marko Maricic" 
                     content="Innovative and creative with great analytical skills. Highly motivated, self tought
                     with great desire for learning and improving programming skills." />
