@@ -54,7 +54,7 @@
     "redux-form": "^8.2.6",
     "redux-persist": "^6.0.0",
     "redux-persist-cookie-storage": "^1.0.0",
-    "serialize-javascript": "^1.9.0",
+    "serialize-javascript": "^3.1.0",
     "style-loader": "^1.0.0"
   }
 }
